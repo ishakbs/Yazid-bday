@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Eater&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Neucha&display=swap');
+body{
+    font-family: 'Eater', cursive;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-size: 5vw;
+}
+h3{
+    text-align: center;
+}
+img{
+    max-width:100%;
+    height:auto;
+    align-content: center;
+}
+p{
+    font-family: 'Neucha', cursive;
+    text-align: center;
+}
+form{
+    box-sizing: border-box;
+}
+input, textarea{
+    border: 2px solid black;
+    width: 100%;
+    resize: vertical;
+}
+button{
+    border-radius: 5px;
+    width: 100px;
+    border: white;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
